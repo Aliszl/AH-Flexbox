@@ -139,7 +139,7 @@ table {
 }
 
 aside {
-  width: 20%;
+  width: 300px;
   background: #2f2b4a;
   height: 100vh;
   display: flex;
@@ -147,6 +147,12 @@ aside {
   justify-content: space-between;
   padding: 30px;
   position: fixed;
+}
+
+@media (max-width: 735px) {
+  aside {
+    display: none;
+  }
 }
 
 aside img {
@@ -170,7 +176,20 @@ aside a:hover {
 
 section {
   margin: 40px;
-  margin-left: 25%;
+  margin-left: 330px;
+}
+
+.par {
+  display: none;
+}
+
+@media (max-width: 735px) {
+  section {
+    margin-left: 0;
+  }
+  .par {
+    display: block;
+  }
 }
 
 section h1 {
@@ -190,7 +209,6 @@ section h1 {
 
 .card {
   width: 30%;
-  background: coral;
   margin: 10px;
   padding: 70px 20px;
   text-align: center;
@@ -199,6 +217,17 @@ section h1 {
   font-size: 20px;
   font-weight: 100;
   border-radius: 5px;
+}
+
+@media (max-width: 735px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    padding: 30px 20px;
+  }
 }
 
 .card:nth-child(1),
@@ -236,6 +265,16 @@ section h1 {
 .link {
   width: 30%;
   margin: 10px;
+}
+
+@media (max-width: 735px) {
+  .links {
+    flex-direction: column;
+  }
+
+  .link {
+    width: 100%;
+  }
 }
 
 .lnk {
