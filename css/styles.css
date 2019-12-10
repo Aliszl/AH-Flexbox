@@ -156,4 +156,13 @@ aside h1 {
   font-size: 70px;
 }
 
+aside a {
+  color: #bb1333;
+  text-decoration: none;
+}
+
+aside a:hover {
+  text-decoration: underline;
+}
+
 
