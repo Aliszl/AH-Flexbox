@@ -145,6 +145,7 @@ aside {
   flex-direction: column;
   justify-content: space-between;
   padding: 30px;
+  position: fixed;
 }
 
 aside img {
@@ -167,6 +168,7 @@ aside a:hover {
 
 section {
   margin: 40px;
+  margin-left: 25%;
 }
 
 section h1 {
@@ -222,4 +224,32 @@ section h1 {
 
 .card:nth-child(6) {
   background: #d84a5a;
+}
+
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link {
+  width: 30%;
+  margin: 10px;
+}
+
+.lnk {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.link h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.link a {
+  color: #d84a5a;
+  text-decoration: none;
 }
