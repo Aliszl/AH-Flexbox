@@ -131,3 +131,29 @@ table {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  width: 100%;
+  display: flex;
+}
+
+aside {
+  width: 20%;
+  background: #2f2b4a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+aside img {
+  width: 100px;
+}
+
+aside h1 {
+  color: white;
+  font-size: 70px;
+}
+
+
