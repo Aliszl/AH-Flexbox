@@ -165,4 +165,17 @@ aside a:hover {
   text-decoration: underline;
 }
 
+section {
+  margin: 40px;
+}
+
+section h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.desc {
+  margin: 20px 0;
+  line-height: 1.5;
+}
 
