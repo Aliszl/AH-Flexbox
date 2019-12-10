@@ -196,3 +196,30 @@ section h1 {
   font-weight: 100;
   border-radius: 5px;
 }
+
+.card:nth-child(1),
+.card:nth-child(7) {
+  background: #14121f;
+}
+
+.card:nth-child(2),
+.card:nth-child(8) {
+  background: #0c3d78;
+}
+
+.card:nth-child(3),
+.card:nth-child(9) {
+  background: #3bb5e6;
+}
+
+.card:nth-child(4) {
+  background: #2f2c4b;
+}
+
+.card:nth-child(5) {
+  background: #1a61af;
+}
+
+.card:nth-child(6) {
+  background: #d84a5a;
+}
