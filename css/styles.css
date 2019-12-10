@@ -107,6 +107,7 @@ section {
 }
 body {
   line-height: 1;
+  font-family: 'Lato', sans-serif;
 }
 ol,
 ul {
@@ -154,7 +155,8 @@ aside img {
 
 aside h1 {
   color: white;
-  font-size: 70px;
+  font-size: 60px;
+  line-height: 1.5;
 }
 
 aside a {
@@ -225,7 +227,6 @@ section h1 {
 .card:nth-child(6) {
   background: #d84a5a;
 }
-
 
 .links {
   display: flex;
