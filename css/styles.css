@@ -155,6 +155,11 @@ aside {
   position: fixed;
 
 }
+@media(max-width: 735px){
+  aside{
+    display: none;
+  }
+}
 
 aside img {
   width: 100px;
@@ -179,6 +184,19 @@ section {
   margin-right: 20px;
   margin-left: 22%;
 }
+
+.par{
+  display:none;
+}
+@media(max-width: 735px){
+  section{
+    margin-left: 20px;
+  }
+  .par{
+    display:block ;
+  }
+}
+
 
 section h1 {
   font-size: 24px;
@@ -208,7 +226,25 @@ section h1 {
   font-weight: 100;
   border-radius: 5px;
 }
+@media(max-width: 735px){
+  .cards {
+    flex-direction: column;
+  }
+  
+  .card {
+    width: 100%;
+    
+    margin: 10px;
+    padding:20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 5px;
+  }
 
+}
 .card:nth-child(1),
 .card:nth-child(7) {
   background-color: #14121f;
@@ -240,7 +276,21 @@ section h1 {
   display: flex;
   flex-wrap: wrap;
 }
-
+@media(max-width: 735px){
+  
+.links {
+  flex-direction: column;
+  justify-content: space-between;
+}
+.link{
+  width:100%;
+  
+}
+.link a{
+  width:100%;
+  
+}
+}
 .link {
   width: 30%;
   height: 150px;
@@ -264,3 +314,4 @@ section h1 {
   font-size: 20px;
   font-weight: 200;
 }
+
