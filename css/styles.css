@@ -91,6 +91,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,17 +106,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -123,6 +128,7 @@ q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -132,25 +138,51 @@ table {
   box-sizing: border-box;
 }
 
-.container{
-  width:100%;
-  display:flex;
+.container {
+  width: 100%;
+  display: flex;
 }
 
-aside{
-  width:20%;
-  background-color:#2f2b4a;
+aside {
+  width: 20%;
+  background-color: #2f2b4a;
   height: 100vh;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding:20px;
+  padding: 20px;
 
 }
-aside img{
+
+aside img {
   width: 100px;
 }
-aside h1{
+
+aside h1 {
   color: white;
   font-size: 30px;
+}
+
+aside a {
+  text-decoration: none;
+  color: #bb1333;
+
+}
+
+aside a:hover {
+  text-decoration: underline;
+}
+
+section{
+  margin:20px;
+}
+section h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.desc{
+  margin:20px 0;
+  line-height: 1.5;
+
 }
