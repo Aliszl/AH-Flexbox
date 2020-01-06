@@ -297,24 +297,10 @@ section h1 {
   display: flex;
   flex-wrap: wrap;
 }
-@media(max-width: 735px){
-  
-.links {
-  flex-direction: column;
-  justify-content: space-between;
-}
-.link{
-  width:100%;
-  
-}
-.link a{
-  width:100%;
-  
-}
-}
+
 .link {
   width: 30%;
-  height: 150px;
+  /* height: 150px; */
   line-height: 1.5;
   margin: 5px;
   padding: 20px 20px;
@@ -334,5 +320,22 @@ section h1 {
 .link h3{
   font-size: 20px;
   font-weight: 200;
+  margin-bottom: 10px;
 }
+@media(max-width: 735px){
+  
+  .links {
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width:100%;
+  }
+  .link{
+    width:100%;
+    
+  }
+  .link a{
+    width:100%;
+    
+  }
+  }
 
